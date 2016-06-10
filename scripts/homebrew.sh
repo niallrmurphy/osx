@@ -37,6 +37,9 @@ brew install gpg
 # GPG Agent
 brew install gpg-agent
 
+# Keybase
+brew install keybase
+
 # Bash
 brew install bash
 
