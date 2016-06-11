@@ -22,9 +22,6 @@ install_zip_app "$SUBLIME_URL_HANDLER_APP_URL" "$SUBLIME_URL_HANDLER_APP_NAME"
 # Alfred
 install_zip_app "$ALFRED_APP_URL" "$ALFRED_APP_NAME"
 
-# TextExpander
-install_zip_app "$TEXTEXPANDER_APP_URL" "$TEXTEXPANDER_APP_NAME"
-
 # Path Finder
 install_zip_app "$PATH_FINDER_APP_URL" "$PATH_FINDER_APP_NAME"
 

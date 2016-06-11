@@ -143,9 +143,6 @@ export SUBLIME_URL_HANDLER_APP_URL="https://github.com/downloads/asuth/subl-hand
 export ALFRED_APP_NAME="Alfred 3.app"
 export ALFRED_APP_URL="https://cachefly.alfredapp.com/Alfred_3.0.1_671.zip"
 
-export TEXTEXPANDER_APP_NAME=TextExpander.app
-export TEXTEXPANDER_APP_URL="http://dl.smilesoftware.com/com.smileonmymac.textexpander/TextExpander.zip"
-
 export PATH_FINDER_APP_NAME="Path Finder.app"
 export PATH_FINDER_APP_URL="http://get.cocoatech.com/PF7.zip"
 
