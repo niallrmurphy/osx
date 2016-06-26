@@ -79,9 +79,6 @@ install_dmg_app "$CLOAK_APP_URL" "Cloak" "$CLOAK_APP_NAME"
 # SurfEasy VPN
 install_dmg_app "$SURF_EASY_VPN_APP_URL" "SurfEasy VPN" "$SURF_EASY_VPN_APP_NAME"
 
-# VirtualBox
-install_dmg_pkg "$VIRTUAL_BOX_APP_URL" "VirtualBox" "$VIRTUAL_BOX_APP_NAME"
-
 # Doxie
 install_dmg_app "$DOXIE_APP_URL" "Doxie" "$DOXIE_APP_NAME"
 

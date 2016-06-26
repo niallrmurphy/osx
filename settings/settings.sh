@@ -200,9 +200,6 @@ export CLOAK_APP_URL="https://static.getcloak.com/downloads/osx/updates/Release/
 export SURF_EASY_VPN_APP_NAME="SurfEasy VPN.app"
 export SURF_EASY_VPN_APP_URL="https://updates.surfeasy.com/downloads/se0201/SurfEasyVPN-Installer.dmg"
 
-export VIRTUAL_BOX_APP_NAME=VirtualBox.app
-export VIRTUAL_BOX_APP_URL="http://download.virtualbox.org/virtualbox/5.0.20/VirtualBox-5.0.20-106931-OSX.dmg"
-
 export DOXIE_APP_NAME=Doxie.app
 export DOXIE_APP_URL="http://www.getdoxie.com/resources/files/download_current_mac.php"
 
