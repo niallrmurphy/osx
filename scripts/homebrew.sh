@@ -31,11 +31,11 @@ brew install libffi
 # libyaml
 brew install libyaml
 
-# GPG
-brew install gpg
+# # GPG
+# brew install gpg
 
-# GPG Agent
-brew install gpg-agent
+# # GPG Agent
+# brew install gpg-agent
 
 # Bash
 brew install bash
@@ -86,17 +86,17 @@ brew install ctags
 # Tag
 brew install tag
 
-# Parallel
-brew install parallel
+# # Parallel
+# brew install parallel
 
-# Pigz
-brew install pigz
+# # Pigz
+# brew install pigz
 
 # JSON CLI Parser
 brew install jq
 
-# The Silver Searcher
-brew install the_silver_searcher
+# # The Silver Searcher
+# brew install the_silver_searcher
 
 # Htop
 brew install htop
@@ -104,8 +104,8 @@ brew install htop
 # Pipe Viewer
 brew install pv
 
-# HTTPie
-brew install httpie
+# # HTTPie
+# brew install httpie
 
 # Ioping
 brew install ioping
@@ -113,8 +113,8 @@ brew install ioping
 # Network Grep
 brew install ngrep
 
-# Namebench
-brew install namebench
+# # Namebench
+# brew install namebench
 
 # ImageMagick
 brew install imagemagick
@@ -128,65 +128,65 @@ brew install flac
 # FFmpeg
 brew install ffmpeg
 
-# Gifsicle
-brew install gifsicle
+# # Gifsicle
+# brew install gifsicle
 
 # Node
 brew install node
 
-# Elm
-brew install elm
+# # Elm
+# brew install elm
 
 # Phantom.js
 brew install phantomjs
 
-# chruby
-brew install chruby
+# # chruby
+# brew install chruby
 
-# Ruby Install
-brew install ruby-install
+# # Ruby Install
+# brew install ruby-install
 
-# Rust
-brew install rust
+# # Rust
+# brew install rust
 
-# Go
-brew install go
+# # Go
+# brew install go
 
-# FZF
-brew install fzf
+# # FZF
+# brew install fzf
 
-# Peco
-brew install peco
+# # Peco
+# brew install peco
 
-# Nginx
-brew install nginx
+# # Nginx
+# brew install nginx
 
-# Memcached
-brew install memcached
+# # Memcached
+# brew install memcached
 
-# Redis
-brew install redis
+# # Redis
+# brew install redis
 
-# PostgreSQL
-brew install postgresql
+# # PostgreSQL
+# brew install postgresql
 
-# Elasticsearch
-brew install elasticsearch
+# # Elasticsearch
+# brew install elasticsearch
 
-# pgcli
-brew install pgcli
+# # pgcli
+# brew install pgcli
 
-# Wry
-brew install wry
+# # Wry
+# brew install wry
 
-# lnav
-brew install lnav
+# # lnav
+# brew install lnav
 
-# cloc
-brew install cloc
+# # cloc
+# brew install cloc
 
 # Terminal Notifier
 brew install terminal-notifier
 
-# Watchman
-brew install watchman
+# # Watchman
+# brew install watchman

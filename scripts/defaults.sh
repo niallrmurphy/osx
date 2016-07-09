@@ -16,8 +16,8 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 printf "System - Expand save panel by default\n"
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
-printf "System - Disable the 'Are you sure you want to open this application?' dialog\n"
-defaults write com.apple.LaunchServices LSQuarantine -bool false
+printf "System - Enable the 'Are you sure you want to open this application?' dialog\n"
+defaults write com.apple.LaunchServices LSQuarantine -bool true
 
 printf "System - Increase window resize speed for Cocoa applications\n"
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
@@ -44,8 +44,8 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 printf "System - Automatically restart if system freezes\n"
 systemsetup -setrestartfreeze on
 
-printf "System - Disable software updates\n"
-sudo softwareupdate --schedule off
+# printf "System - Disable software updates\n"
+# sudo softwareupdate --schedule off
 
 printf "Keyboard - Automatically illuminate built-in MacBook keyboard in low light\n"
 defaults write com.apple.BezelServices kDim -bool true
@@ -83,14 +83,14 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 printf "Bluetooth - Increase sound quality for headphones/headsets\n"
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
-printf "Menu Bar - Show only Bluetooth and Airport\n"
-for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
-  defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
-done
+# printf "Menu Bar - Show only Bluetooth and Airport\n"
+# for domain in $HOME/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
+#   defaults write "${domain}" dontAutoLoad -array "/System/Library/CoreServices/Menu Extras/TimeMachine.menu"
+# done
 
-defaults write com.apple.systemuiserver menuExtras -array \
-  "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
-  "/System/Library/CoreServices/Menu Extras/AirPort.menu"
+# defaults write com.apple.systemuiserver menuExtras -array \
+#   "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+#   "/System/Library/CoreServices/Menu Extras/AirPort.menu"
 
 printf "Dock - Remove all default app icons\n"
 defaults write com.apple.dock persistent-apps -array
@@ -98,8 +98,8 @@ defaults write com.apple.dock persistent-apps -array
 printf "Dock - Automatically hide and show\n"
 defaults write com.apple.dock autohide -bool true
 
-printf "Dock - Remove the auto-hiding delay\n"
-defaults write com.apple.Dock autohide-delay -float 0
+# printf "Dock - Remove the auto-hiding delay\n"
+# defaults write com.apple.Dock autohide-delay -float 0
 
 printf "Dock - Don’t show Dashboard as a Space\n"
 defaults write com.apple.dock "dashboard-in-overlay" -bool true
@@ -131,23 +131,23 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 printf "Finder - Use list view in all Finder windows\n"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
-defaults write com.apple.finder QuitMenuItem -bool true
+# printf "Finder - Allow quitting via COMMAND+Q -- Doing so will also hide desktop icons\n"
+# defaults write com.apple.finder QuitMenuItem -bool true
 
-printf "Finder - Disable the warning before emptying the Trash\n"
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
+# printf "Finder - Disable the warning before emptying the Trash\n"
+# defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 printf "Finder - Allow text selection in Quick Look\n"
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
-printf "iOS Simulator - Symlink the iOS Simulator application\n"
-sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
+# printf "iOS Simulator - Symlink the iOS Simulator application\n"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
 
 printf "Safari - Set home page to 'about:blank' for faster loading\n"
 defaults write com.apple.Safari HomePage -string "about:blank"
 
-printf "Safari - Hide bookmarks bar\n"
-defaults write com.apple.Safari ShowFavoritesBar -bool false
+# printf "Safari - Hide bookmarks bar\n"
+# defaults write com.apple.Safari ShowFavoritesBar -bool false
 
 printf "Safari - Use Contains instead of Starts With in search banners\n"
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false

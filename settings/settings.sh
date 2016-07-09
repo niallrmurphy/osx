@@ -9,8 +9,8 @@ set -o nounset # Exit, with error message, when attempting to use an undefined v
 set -o errexit # Abort script at first error, when a command exits with non-zero status.
 set -o pipefail # Returns exit status of the last command in the pipe that returned a non-zero return value.
 IFS=$'\n\t' # Defines how Bash splits words and iterates arrays. This defines newlines and tabs as delimiters.
-export SYSTEM_LABEL=Alchemist # Placeholder for system display name.
-export SYSTEM_NAME=alchemist # Placeholder for system name.
+export SYSTEM_LABEL=Lucera # Placeholder for system display name.
+export SYSTEM_NAME=lucera # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby
@@ -57,6 +57,9 @@ export VIM_RAILS_EXTENSION_URL="git://github.com/tpope/vim-rails.git"
 
 export SUBLIME_TEXT_APP_NAME="Sublime Text.app"
 export SUBLIME_TEXT_APP_URL="https://download.sublimetext.com/Sublime%20Text%20Build%203103.dmg"
+
+export ATOM_APP_NAME="Atom.app"
+export ATOM_APP_URL="https://atom.io/download/mac"
 
 export SUBLIME_TEXT_EXTENSION_ROOT="$HOME/Library/Application Support/Sublime Text 3/Packages"
 export GIT_GUTTER_EXTENSION_PATH="$SUBLIME_TEXT_EXTENSION_ROOT/GitGutter"
@@ -235,3 +238,6 @@ export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
 
 export HAND_BRAKE_APP_NAME="HandBrake.app"
 export HAND_BRAKE_APP_URL="http://handbrake.fr/rotation.php?file=HandBrake-0.10.5-MacOSX.6_GUI_x86_64.dmg"
+
+export LIGHTROOM_APP_NAME="Adobe Lightroom.app"
+export LIGHTROOM_APP_URL="http://download.adobe.com/pub/adobe/lightroom/mac/5.x/Lightroom_5_LS11_mac_5_7_1.dmg"
