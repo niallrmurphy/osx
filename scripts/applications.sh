@@ -62,7 +62,7 @@ install_zip_app "$TRANSMIT_APP_URL" "$TRANSMIT_APP_NAME"
 # install_tar_app "$IMAGE_OPTIM_APP_URL" "$IMAGE_OPTIM_APP_NAME" "-xjf"
 
 # VLC
-install_dmg_app "$VLC_APP_URL" "vlc-2.2.2" "$VLC_APP_NAME"
+install_dmg_app "$VLC_APP_URL" "vlc-2.2.4" "$VLC_APP_NAME"
 
 # # PG Admin
 # install_dmg_app "$PG_ADMIN_APP_URL" "pgAdmin3" "$PG_ADMIN_APP_NAME"

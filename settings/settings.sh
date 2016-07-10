@@ -228,10 +228,10 @@ export RESCUE_TIME_APP_NAME=RescueTime.app
 export RESCUE_TIME_APP_URL="https://www.rescuetime.com/installers/RescueTimeInstaller.dmg"
 
 export CARBON_COPY_CLONER_APP_NAME="Carbon Copy Cloner.app"
-export CARBON_COPY_CLONER_APP_URL="https://70dd08a0984b0022574d-8064f6cbda3d6f2abd1c53b8bc16b17e.ssl.cf5.rackcdn.com/ccc-4.1.7.4285.zip"
+export CARBON_COPY_CLONER_APP_URL="https://bombich.com/software/download_ccc.php?v=latest"
 
 export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
-export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
+export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/whomwah/qlstephen/releases/download/1.4.3/QLStephen.qlgenerator.1.4.3.zip"
 
 export KSDIFF_APP_NAME="ksdiff"
 export KSDIFF_APP_URL="https://updates.blackpixel.com/latest?app=ksdiff"
@@ -246,7 +246,7 @@ export LASTPASS_APP_NAME="LastPass.app"
 export LASTPASS_APP_URL="https://lastpass.com/download/cdn/lpmacosx.zip"
 
 export AQUAMACS_APP_NAME="Aquamacs.app"
-export AQUAMACS_APP_URL="http://jazz.aquamacs.org/~dreitter/Aquamacs/latest/Aquamacs-nightly.tar.bz2"
+export AQUAMACS_APP_URL="https://jazz.aquamacs.org/~dreitter/Aquamacs/latest/Aquamacs-nightly.tar.bz2"
 
 export MACTEX_APP_NAME="MacTeX.app"
 export MACTEX_APP_URL="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg"
