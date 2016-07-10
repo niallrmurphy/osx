@@ -123,3 +123,6 @@ install_zip_pkg "$LASTPASS_APP_URL" "$LASTPASS_APP_NAME"
 
 # Aquamacs
 install_zip_pkg "$AQUAMACS_APP_URL" "$AQUAMACS_APP_NAME"
+
+# MacTeX
+install_zip_pkg "$MACTEX_APP_URL" "$MACTEX_APP_NAME"

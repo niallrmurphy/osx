@@ -247,3 +247,7 @@ export LASTPASS_APP_URL="https://lastpass.com/download/cdn/lpmacosx.zip"
 
 export AQUAMACS_APP_NAME="Aquamacs.app"
 export AQUAMACS_APP_URL="http://jazz.aquamacs.org/~dreitter/Aquamacs/latest/Aquamacs-nightly.tar.bz2"
+
+export MACTEX_APP_NAME="MacTeX.app"
+export MACTEX_APP_URL="http://tug.org/cgi-bin/mactex-download/MacTeX.pkg"
+
