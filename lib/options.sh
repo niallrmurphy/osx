@@ -17,6 +17,9 @@ process_option() {
     'a')
       scripts/applications.sh
       break;;
+    'm')
+      scripts/appstore.sh
+      break;;
     'x')
       scripts/extensions.sh
       break;;
