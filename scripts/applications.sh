@@ -120,3 +120,6 @@ install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$H
 
 # Lastpass
 install_zip_pkg "$LASTPASS_APP_URL" "$LASTPASS_APP_NAME"
+
+# Aquamacs
+install_zip_pkg "$AQUAMACS_APP_URL" "$AQUAMACS_APP_NAME"
