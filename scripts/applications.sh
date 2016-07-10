@@ -117,3 +117,6 @@ install_dmg_app "$HAND_BRAKE_APP_URL" "HandBrake-0.10.5-MacOSX.6_GUI_x86_64" "$H
 
 # # Lightroom
 # install_dmg_app "$LIGHTROOM_APP_URL" "Adobe Lightroom" "$LIGHTROOM_APP_NAME"
+
+# Lastpass
+install_zip_pkg "$LASTPASS_APP_URL" "$LASTPASS_APP_NAME"

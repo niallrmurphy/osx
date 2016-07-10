@@ -241,3 +241,6 @@ export HAND_BRAKE_APP_URL="http://handbrake.fr/rotation.php?file=HandBrake-0.10.
 
 export LIGHTROOM_APP_NAME="Adobe Lightroom.app"
 export LIGHTROOM_APP_URL="http://download.adobe.com/pub/adobe/lightroom/mac/5.x/Lightroom_5_LS11_mac_5_7_1.dmg"
+
+export LASTPASS_APP_NAME="Lastpass.app"
+export LASTPASS_APP_URL="https://lastpass.com/download/cdn/lpmacosx.zip"
