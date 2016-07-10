@@ -213,49 +213,49 @@ defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 printf "App Store - Enable Debug Menu in the Mac App Store\n"
 defaults write com.apple.appstore ShowDebugMenu -bool true
 
-printf "Set sidebar icon size to Small"
+printf "Set sidebar icon size to Small\n"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
-printf "Check for software updates daily, not just once per week"
+printf "Check for software updates daily, not just once per week\n"
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
-printf "Don't automatically switch to a Space with open windows for an application when switching to it"
+printf "Don't automatically switch to a Space with open windows for an application when switching to it\n"
 defaults write com.apple.dock workspaces-auto-swoosh -boolean NO
 
-printf "Trackpad: swipe between pages with three fingers"
+printf "Trackpad: swipe between pages with three fingers\n"
 defaults write NSGlobalDomain AppleEnableSwipeNavigateWithScrolls -bool true
 defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerHorizSwipeGesture -int 1
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerHorizSwipeGesture -int 1
 
-printf "Enable snap-to-grid for icons on the desktop and in other icon views"
+printf "Enable snap-to-grid for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
-printf "Increase grid spacing for icons on the desktop and in other icon views"
+printf "Increase grid spacing for icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:gridSpacing 70" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:gridSpacing 70" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:gridSpacing 70" ~/Library/Preferences/com.apple.finder.plist
 
-printf "Increase the size of icons on the desktop and in other icon views"
+printf "Increase the size of icons on the desktop and in other icon views\n"
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 128" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 128" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 128" ~/Library/Preferences/com.apple.finder.plist
 
-printf "Make Dock icons of hidden applications translucent"
+printf "Make Dock icons of hidden applications translucent\n"
 defaults write com.apple.dock showhidden -bool true
 
-printf "Hot corners: Bottom right screen corner → Put Display to Sleep"
+printf "Hot corners: Bottom right screen corner → Put Display to Sleep\n"
 defaults write com.apple.dock wvous-br-corner -int 10
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-printf "Disable radio stations in iTunes"
+printf "Disable radio stations in iTunes\n"
 defaults write com.apple.iTunes disableRadio -bool true
 
-printf "Always show scrollbars"
+printf "Always show scrollbars\n"
 defaults write NSGlobalDomain AppleShowScrollBars -string “Always”
 
-printf "Show all icons on desktop"
+printf "Show all icons on desktop\n"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
