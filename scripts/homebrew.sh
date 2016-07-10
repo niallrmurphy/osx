@@ -190,3 +190,6 @@ brew install terminal-notifier
 
 # # Watchman
 # brew install watchman
+
+# mas
+brew install mas
