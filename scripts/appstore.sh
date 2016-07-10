@@ -3,6 +3,8 @@
 # DESCRIPTION
 # Installs OSX Mac Store applications.
 
+mas signin niallm@mac.com
+
 mas install 456877552 # GeekTool
 mas install 497799835 # Xcode
 mas install 419330170 # Moom
