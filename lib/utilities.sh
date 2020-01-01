@@ -11,6 +11,18 @@ get_file_name() {
 }
 export -f get_file_name
 
+append_to_shell_dotfile() {
+  local kind="$1"
+  shift
+  local cline="$*"
+  if [[ "$kind" == "zsh" ]]; then
+    printf "$cline" >> ~/.zshenv
+  elif [[ "$kind" == "bash" ]]; then
+    printf "$cline" >> ~/.bash_profile
+  fi
+}
+export -f append_to_shell_dotfile
+
 # Answers the file extension.
 # Parameters:
 # $1 = The file name.
