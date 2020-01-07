@@ -13,7 +13,7 @@ if ! command -v brew > /dev/null; then
 fi
 
 minimal_set=(
-  readline openssl bash-completion liquidprompt vim mas
+  readline openssl bash-completion liquidprompt vim mas dockutil
 )
 
 for program in ${minimal_set[@]};
@@ -211,3 +211,12 @@ EOF
 #
 # # mas
 # brew install mas
+
+  sudo xcodebuild -license accept
+
+brew install dockutil
+brew cask
+brew cask install aquamacs
+
+git config --global user.email "niallm@gmail.com"
+git config --global user.name "Niall Murphy"

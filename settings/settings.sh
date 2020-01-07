@@ -9,8 +9,8 @@ set -o nounset # Exit, with error message, when attempting to use an undefined v
 set -o errexit # Abort script at first error, when a command exits with non-zero status.
 set -o pipefail # Returns exit status of the last command in the pipe that returned a non-zero return value.
 IFS=$'\n\t' # Defines how Bash splits words and iterates arrays. This defines newlines and tabs as delimiters.
-export SYSTEM_LABEL=Lucera # Placeholder for system display name.
-export SYSTEM_NAME=lucera # Placeholder for system name.
+export SYSTEM_LABEL=Horcrux # Placeholder for system display name.
+export SYSTEM_NAME=horcrux # Placeholder for system name.
 export WORK_PATH=/tmp/downloads # Temporary location for processing of file downloads and installers.
 
 # Ruby

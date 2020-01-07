@@ -261,3 +261,6 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+printf "Munki"
+sudo defaults write /Library/Preferences/ManagedInstalls SoftwareRepoURL "http://vault.lan/munki_repo"
+

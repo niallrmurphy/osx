@@ -2,11 +2,13 @@
 
 # DESCRIPTION
 # Applies basic system settings.
+SYSTEM_LABEL=Horcrux
+SYSTEM_NAME=horcrux
 
 # EXECUTION
 printf "Cleaning default directories...\n"
-rm -rf $HOME/Documents/*
-rm -rf $HOME/Downloads/*
+#rm -rf $HOME/Documents/*
+#rm -rf $HOME/Downloads/*
 
 printf "Setting system label and name...\n"
 sudo scutil --set ComputerName $SYSTEM_LABEL
@@ -15,4 +17,4 @@ sudo scutil --set LocalHostName $SYSTEM_NAME
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string $SYSTEM_NAME
 
 printf "Setting default desktop image (3200x2000@300).\n"
-sudo cp settings/default_desktop.jpg $HOME/Documents/default.jpg
+#Sudo cp settings/default_desktop.jpg $HOME/Documents/default.jpg
