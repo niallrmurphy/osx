@@ -13,7 +13,7 @@ if ! command -v brew > /dev/null; then
 fi
 
 minimal_set=(
-  readline openssl bash-completion liquidprompt vim mas dockutil
+  readline openssl bash-completion liquidprompt vim mas dockutil rsync rclone sqlite telnet youtube-dl mutt nmap handbrake arp-scan bash coreutils dhcping
 )
 
 for program in ${minimal_set[@]};
@@ -212,11 +212,17 @@ EOF
 # # mas
 # brew install mas
 
-  sudo xcodebuild -license accept
+#  sudo xcodebuild -license accept
 
-brew install dockutil
-brew cask
-brew cask install aquamacs
+cask_set=(
+	aquamacs adobe-creative-cloud adobe-digital-editions adobe-acrobat-reader android-file-transfer android-platform-tools arq arq-cloud-backup atom calibre carbon-copy-cloner dropbox firefox google-chrome opera handbrake hermit-crab inform kindle kobo lastpass makemkv moneywiz paragon-ntfs oscar path-finder scrivener slack spotify steam thunderbird vlc whatsapp xrg zoom macdown
+)
 
-git config --global user.email "niallm@gmail.com"
-git config --global user.name "Niall Murphy"
+for program in ${cask_set[@]};
+  do brew cask install $program && echo "INSTALL SUCCESS" || echo "INSTALL FAILURE"
+done
+
+# Note for the future:
+# To complete the installation of Cask paragon-ntfs, you must also
+# run the installer at:
+#  '/usr/local/Caskroom/paragon-ntfs/15/FSInstaller.app'
